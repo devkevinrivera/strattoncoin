@@ -15,7 +15,7 @@ function useAssets() {
     },[]);
     
     return {
-        list
+        list: list ?? []
     };
 }
 
